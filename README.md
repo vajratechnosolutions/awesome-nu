@@ -49,6 +49,7 @@ You can find some examples about how to create and use plugins in the [Nushell P
 - [nu_plugin_dbus](https://github.com/devyn/nu_plugin_dbus): Nushell plugin for interacting with D-Bus.
 - [nu_plugin_dpktable](https://github.com/pdenapo/nu_plugin_dpkgtable.git): Gets a table of all known packages in a Debian GNU/Linux system.
 - [nu_plugin_from_sse](https://github.com/cablehead/nu_plugin_from_sse): Nushell plugin to parse a stream of HTTP server sent events.
+- [nu_plugin_ulid](https://github.com/lizclipse/nu_plugin_ulid): A nushell plugin that adds various ulid commands.
 
 > If the shell freezes while registering the command, that means the plugin is using an older Nu version no longer compatible with your current version. Consider bumping the Nu version to the latest in the `cargo.toml`, (may lead to breaking the script).
 
@@ -74,6 +75,7 @@ You can find some examples about how to create and use scripts in the [Nushell S
 - [terraform-importer.nu](https://github.com/Yethal/terraform-importer): Automatically import resources into your Terraform state.
 - [npup.nu](https://github.com/fj0r/npup): Puppet based on nushell.
 - [comma.nu](https://github.com/fj0r/comma.nu): Task and test runner of nu script.
+- [wi](https://github.com/phoenixr-codes/wi): A linguist wrapper for the terminal.
 
 ## Custom Completions
 You can find some examples about how to create and use custom completions in the [Nushell Custom Completions](https://www.nushell.sh/book/custom_completions.html) page.
